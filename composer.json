@@ -1,0 +1,16 @@
+{
+    "name": "app/mvc",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tfermoso",
+            "email": "tomas.fermoso@gmail.com"
+        }
+    ],
+    "require": {}
+}
