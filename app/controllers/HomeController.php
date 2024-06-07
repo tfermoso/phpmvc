@@ -7,7 +7,7 @@ class HomeController
     public function index()
     {
         // Cargar la vista
-        require '../app/views/post/index.php';
+        require '../app/views/home/index.php';
     }
 }
 

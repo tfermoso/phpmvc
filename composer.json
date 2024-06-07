@@ -12,5 +12,8 @@
             "email": "tomas.fermoso@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/database": "^11.10",
+        "illuminate/events": "^11.10"
+    }
 }
