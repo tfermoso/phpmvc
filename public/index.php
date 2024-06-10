@@ -7,6 +7,7 @@ use App\Controllers\HomeController;
 
 // Obtener la URL solicitada
 $url = isset($_SERVER['REQUEST_URI']) ? trim($_SERVER['REQUEST_URI'], '/') : 'home/index';
+//$url=str_ireplace($url,'',"mvc");
 if($url=="") $url='home/index';
 // Si la URL comienza con 'index.php/', remuévela
 $url = preg_replace('/^index.php\//', '', $url);
