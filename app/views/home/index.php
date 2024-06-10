@@ -9,6 +9,10 @@
     <div class="container mt-5">
         <h1>Home</h1>
         <p>Bienvenido a nuestra aplicación web MVC en PHP.</p>
+
+        <input type="text" id="texto" placeholder="Texto a enviar por ajax">
+        <button id="btnajax">Pulsar</button>
     </div>
+    <script src="assets/js/home.js"></script>
 </body>
 </html>
