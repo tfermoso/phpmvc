@@ -3,7 +3,7 @@ const inputText = document.getElementById("texto");
 btnajax.onclick = () => {
     let formData = new FormData();
     formData.append('datos', inputText.value);
-    fetch("ajax/getdata", {
+    fetch("", {
         method: "POST",
         body: formData
     })
